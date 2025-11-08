@@ -1,0 +1,29 @@
+# Keliling & Luas persegi 
+print("Penghitung Keliling & luas persegi")
+sisi = int(input("Masukkan Panjang Sisi : "))
+kelilingPersegi = sisi*4
+luasPersegi = sisi*sisi
+
+# Keliling & Luas persegi panjang
+print("Penghitung Keliling & luas persegi panjang")
+panjang = int(input("Masukkan Panjang : "))
+lebar = int(input("Masukkan Lebar : "))
+kelPsPan = 2*(panjang+lebar)
+luasPsPan = panjang*lebar
+
+# Keliling & Luas Lingkaran
+print("Penghitung Keliling & luas Lingkaran")
+jari = int(input("Masukkan Jari-Jari : "))
+kelLing = 2*3.14*jari
+luasLing = 3.14*jari**2
+
+print("========== HASIL PENGHITUNGAN ==========")
+
+print("Keliling Persegi Adalah : ", kelilingPersegi, "cm")
+print("Luas Persegi Adalah : ", luasPersegi, "cm")
+print("Keliling Persegi Panjang Adalah : ", kelPsPan, "cm")
+print("Luas Persegi Panjang Adalah : ", luasPsPan, "cm")
+print("Keliling Lingkaran Adalah : ", kelLing, "cm")
+print("Luas Lingkaran Adalah : ", luasLing, "cm")
+
+print("Terimakasih Telah menggunakan :) ")
