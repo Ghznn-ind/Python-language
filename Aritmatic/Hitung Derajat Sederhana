@@ -1,0 +1,99 @@
+print("\nPROGRAM KONVERENSI TEMPERATUR\n")
+
+print("========== CELCIUS ==========")
+
+celcius = float(input("Masukkan Suhu Dalam Celcius :"))
+print("Suhu Adalah", celcius, "Celcius")
+
+print("=============================")
+
+# Rumus Konverensi Dari Celcius
+# Reamur
+reamurC = (4/5)*celcius 
+# Farenheit
+farenheitC = ((9/5)*celcius)+32
+# Kelvin 
+kelvinC = celcius+273.15
+
+print("=========== HASIL ===========")
+
+# Tampilkan Hasil Celcius
+print("Suhu Dalam Reamur =", reamurC, "Reamur")
+print("Suhu Dalam Frenheit =", farenheitC, "Farenheit")
+print("Suhu Dalam Kevin =", kelvinC, "Kelvin")
+
+print("=============================")
+
+print("========== REAMUR ===========")
+
+reamur = float(input("Masukkan Suhu Dalam Reamur :"))
+print("Suhu Adalah", reamur, "Reamur")
+
+print("=============================")
+
+# Rumus Konversi Dari Reamur
+# Celcius
+celciusR = (5/4)*reamur
+# Farenheit
+farenheitR = ((9/4)*reamur)+32
+# Kelvin
+kelvinR = ((5/4)*reamur)+273.15
+
+print("========== HASIL ============")
+
+# Tampilkan Hasil Reamur
+print("Suhu Dalam Celcius =", celciusR, "Celcius")
+print("Suhu Dalam Frenheit =", farenheitR, "Farenheit")
+print("Suhu Dalam Kevin =", kelvinR, "Kelvin")
+
+print("=============================")
+
+print("========= FARENHEIT =========")
+
+farenheit = float(input("Massukkan Suhu Dalam Farenheit :"))
+print("Suhu Adalah", farenheit, "Farenheit")
+
+print("=============================")
+
+# Rumus Konversi Dari Farenheit 
+# Celcius
+celciusF = (5/9)*(farenheit-32)
+# Reamur
+reamurF = (4/9)*(farenheit-32)
+# Kelvin
+kelvinF = (5/9)*(farenheit-32)+273.15
+
+print("=========== HASIL ===========")
+
+# Tampilkan Hasil Celcius
+print("Suhu Dalam Celcius =", celciusF, "Celcius")
+print("Suhu Dalam Reamur =", reamurF, "Reamur")
+print("Suhu Dalam Kevin =", kelvinF, "Kelvin")
+
+print("=============================")
+
+print("========== KELVIN ==========")
+
+kelvin = float(input("Masukkan Suhu Dalam Kelvin :"))
+print("Suhu Adalah", kelvin, "Kelvin")
+
+print("============================")
+
+# Rumus Konverensi Dari Kelvin
+# Celcius
+celciusK = kelvin-273.15
+# Reamur 
+reamurK = (4/5)*(kelvin-273.15)
+# Farenheit
+farenheitK = (9/5)*(kelvin-273.15)+32
+
+print("========== HASIL ==========")
+
+# Tampilkan Hasil Celcius
+print("Suhu Dalam Celcius =", celciusK, "Celcius")
+print("Suhu Dalam Reamur =", reamurK, "Reamur")
+print("Suhu Dalam Farenheit =", farenheitK, "Farenheit")
+
+print("===========================")
+print("======= TERIMAKASIH =======")
+print("===========================")
