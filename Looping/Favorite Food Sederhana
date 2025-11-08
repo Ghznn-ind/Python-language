@@ -1,0 +1,22 @@
+# Membuat list kosong untuk menampung makanan favorit
+makananFav = []
+stop = False
+i = 1
+
+# Mengisi makanan favorit
+while(not stop):
+    makananFav_baru = input("Masukkan makanan kesukaanmu yang ke-{}: ".format(i))
+    makananFav.append(makananFav_baru)
+
+    # Increment i
+    i += 1
+    
+    tanya = input("Mau isi lagi? (ya/tidak): ")
+    if(tanya == "tidak"): 
+        stop = True
+
+# Cetak Semua makanan favorit
+print("\n", 20*"=", "\n")
+print("Makanan yang kamu suka {} makanan".format(len(makananFav)))
+for Favorit in makananFav:
+    print("- {}".format(Favorit))
