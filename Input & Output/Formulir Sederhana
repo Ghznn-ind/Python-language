@@ -1,0 +1,23 @@
+print("========== ISI DATA ==========")
+
+# Input Data/Masukkan data
+nama_siswa = input("Masukkan Nama :")
+nik_siswa = int(input("Masukkan NIK :"))
+umur_siswa = float(input("Masukkan Umur :"))
+kelas = (input("Masukkan Kelas Anda :"))
+
+print("========== CROSS CEK ==========")
+
+# Print Data/Keluarkan hasil data
+print("Nama Anda :", nama_siswa, "Tipe Data", type(nama_siswa))
+print("NIK Anda :", nik_siswa, "Tipe Data", type(nik_siswa))
+print("Umur Anda :", umur_siswa, "Tipe Data", type(umur_siswa))
+print("Kelas :", kelas, "Tipe Data", type(kelas))
+
+print("========== VALIDASI ==========")
+
+# Validasi Sederhana
+validasi = bool(int(input("Masukkan 0 Jika Salah 1 Jika Benar")))
+print("Kebenaran Data = ", validasi)
+
+print("Terimkasih Telah Mengisi Data :) ")
